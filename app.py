@@ -41,7 +41,3 @@ def update_figure(selected_year):
     fig.update_layout(transition_duration=500)
 
     return fig
-
-# Run the app
-# if __name__ == '__main__':
-#     app.run_server(debug=True)
