@@ -6,4 +6,4 @@ of the Gunicorn server with our application.
 
 from app import app
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
