@@ -1,7 +1,6 @@
 """wsgi entry point
 
-This module serves as the entry point for our application. It defines the behavior
-of the Gunicorn server with our application.
+This module serves as the entry point for our application. This one starts the development server.
 """
 
 from app import app
