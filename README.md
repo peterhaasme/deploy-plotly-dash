@@ -1,2 +1,2 @@
 # deploy-plotly-dash
-Deploy Plotly Dash to the web
+Minimal Dash application that is generally ready for deployment.
