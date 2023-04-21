@@ -16,6 +16,7 @@ app = Dash(__name__)
 
 # App layout
 app.layout = html.Div([
+    html.H1("A Minimal Plotly Dash application"),
     dcc.Graph(id='graph-with-slider'),
     dcc.Slider(
         df['year'].min(),
@@ -24,7 +25,8 @@ app.layout = html.Div([
         value=df['year'].min(),
         marks={str(year): str(year) for year in df['year'].unique()},
         id='year-slider'
-    )
+    ),
+    html.A("Github", href="https://github.com/peterhaasme/deploy-plotly-dash")
 ])
 
 # App callbacks
